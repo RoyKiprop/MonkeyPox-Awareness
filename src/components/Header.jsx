@@ -4,7 +4,7 @@ import Navbar from "./Navbar"
 
 function Header() {
   return (
-    <div className="flex items-center justify-between bg-gray-100 rounded-lg p-6 my-5 mx-20 text-[#575379]">
+    <div className="sticky top-0 flex items-center justify-between bg-white rounded-lg px-20 py-4 text-[#575379]">
       <Logo/>
       <Navbar/>
     </div>

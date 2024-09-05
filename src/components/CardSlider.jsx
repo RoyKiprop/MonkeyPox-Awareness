@@ -2,7 +2,7 @@
 
 function CardSlider({children}) {
   return (
-    <div>
+    <div className="flex items-center">
       {children}
     </div>
   )
