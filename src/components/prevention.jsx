@@ -1,4 +1,4 @@
-import symptoms from "../assets/symptoms.png";
+import prevention from "../assets/prevention.png";
 
 const mpoxPrevention = [
   {
@@ -70,7 +70,7 @@ function Prevention() {
 
         <div className="w-full lg:w-1/2 overflow-hidden ">
           <img
-            src={symptoms}
+            src={prevention}
             className="block w-full  h-auto max-h-[50vh] md:max-h-[90vh] object-cover rounded-lg "
             alt="Infected body illustration"
           />

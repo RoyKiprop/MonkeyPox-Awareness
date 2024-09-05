@@ -8,19 +8,19 @@ function Navbar() {
           <NavLink className="hover:text-[#25c0b0]" to="home">HOME</NavLink>
         </li>
         <li>
-          <NavLink className="hover:text-[#25c0b0]" to="services">ABOUT</NavLink>
+          <NavLink className="hover:text-[#25c0b0]" to="about">ABOUT</NavLink>
         </li>
         <li>
-          <NavLink className="hover:text-[#25c0b0]" to="team">SYMPTOMS</NavLink>
+          <NavLink className="hover:text-[#25c0b0]" to="symptoms">SYMPTOMS</NavLink>
         </li>
         <li>
-          <NavLink className="hover:text-[#25c0b0]" to="career">PREVENTION</NavLink>
+          <NavLink className="hover:text-[#25c0b0]" to="prevention">PREVENTION</NavLink>
         </li>
         <li>
-          <NavLink className="hover:text-[#25c0b0]" to="sos">CHATBOT</NavLink>
+          <NavLink className="hover:text-[#25c0b0]" to="chatbot">CHATBOT</NavLink>
         </li>
         <li>
-          <NavLink className="hover:text-[#25c0b0]" to="sos">BLOG</NavLink>
+          <NavLink className="hover:text-[#25c0b0]" to="blog">BLOG</NavLink>
         </li>
       </ul>
     </nav>

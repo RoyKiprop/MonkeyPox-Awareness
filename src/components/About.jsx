@@ -5,7 +5,7 @@ import Stats from "./Stats";
 
 function About() {
   return (
-    <section className="px-20 bg-gray-50 py-16">
+    <section className="px-20 bg-gray-50 p-16">
       <div className="flex flex-col items-center mb-10 space-y-6 lg:space-y-8 ">
         <div className="flex justify-center w-full">
           <div className="p-1 rounded-xl bg-[#2dc6b3] w-[15%]">
