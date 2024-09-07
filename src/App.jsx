@@ -5,6 +5,7 @@ import About from "./components/About";
 import Symptoms from "./components/Symptoms";
 import Prevention from "./components/prevention";
 import Footer from "./components/Footer";
+import WashHands from "./components/WashHands";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <About />
         <Symptoms />
         <Prevention />
+        <WashHands/>
         <Footer />
       </body>
     </BrowserRouter>

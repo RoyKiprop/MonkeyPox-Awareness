@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className=" text-sm  font-semibold ">
+    <nav className="hidden lg:block text-sm  font-semibold ">
       <ul className="flex justify-center space-x-10">
         <li>
           <NavLink className="hover:text-[#25c0b0]" to="home">HOME</NavLink>

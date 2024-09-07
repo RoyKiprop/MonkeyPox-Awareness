@@ -5,6 +5,7 @@ import CardSlider from "./CardSlider";
 import Button from "./button";
 import FightImage from "../assets/FightImage.svg";
 import Prevent from "../assets/Prevent.png";
+import SectionTag from "./SectionTag";
 
 function HomeSlider() {
   const settings = {
@@ -21,11 +22,7 @@ function HomeSlider() {
       <Slider {...settings}>
         <CardSlider>
           <div className="w-1/2  space-y-8 font-bold">
-            <div className="p-1 rounded-xl bg-[#2dc6b3] w-[30%]">
-              <h5 className="text-white text-center text-xl">
-                Stop mPox Virus
-              </h5>
-            </div>
+          <SectionTag>Stop mPox Virus</SectionTag>
             <h3 className="text-[#59547d] text-4xl">
               How can we fight together against MonkeyPox virus?
             </h3>

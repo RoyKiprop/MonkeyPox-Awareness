@@ -1,21 +1,12 @@
-
 import symptoms from "../assets/symptoms.png";
-
-
+import SectionTag from "./SectionTag";
 
 function Symptoms() {
   return (
-    <section
-      
-      className="px-20 py-16 bg-gray-100"
-    >
+    <section className="px-20 py-16 bg-gray-100">
       <div className="flex space-x-10">
         <div className="w-1/2 space-y-8">
-          <div className="flex w-full">
-            <div className="p-1 rounded-xl bg-[#2dc6b3] w-[25%]">
-              <h5 className="text-white text-center text-md"> mPox symptoms</h5>
-            </div>
-          </div>
+          <SectionTag>mPox Symptoms</SectionTag>
           <h1 className="text-5xl text-[#59547d] font-bold">
             What Are The Main Symptoms?
           </h1>

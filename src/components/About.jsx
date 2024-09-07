@@ -2,16 +2,13 @@ import AboutTabs from "./AboutTabs";
 
 import virus from "../assets/virus.jpg";
 import Stats from "./Stats";
+import SectionTag from "./SectionTag";
 
 function About() {
   return (
     <section className="px-20 bg-gray-50 p-16">
       <div className="flex flex-col items-center mb-10 space-y-6 lg:space-y-8 ">
-        <div className="flex justify-center w-full">
-          <div className="p-1 rounded-xl bg-[#2dc6b3] w-[15%]">
-            <h5 className="text-white text-center text-md">About mPox Virus</h5>
-          </div>
-        </div>
+      <div className="flex justify-center"><SectionTag>About mPox</SectionTag></div>
 
         <h1 className="text-2xl lg:text-4xl font-semibold mx-auto w-full lg:w-[60%] text-center text-[#59547d]">
           Monkeypox Virus Disease Outbreak Situation across the World
