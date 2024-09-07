@@ -5,7 +5,7 @@ import { BsTwitterX } from "react-icons/bs";
 
 function Footer() {
   return (
-    <footer className="bg-[#59547d] text-white px-8 lg:px-20 py-12">
+    <footer className="bg-[#59547d] text-white px-8 md:px-12 lg:px-20 py-12">
       <div className="container mx-auto flex flex-wrap justify-between  gap-8">
         <div className="w-full md:w-auto flex flex-col items-center md:items-start">
           <Logo />

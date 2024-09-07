@@ -46,7 +46,7 @@ function AboutTabs() {
             className={`${
               index === activeTab &&
               "border-b-4 text-[#29c8b3] border-[#29c8b3]"
-            }  py-4 w-1/2 font-semibold text-xl text-[#59547d]`}
+            }  py-4 w-1/2 font-semibold text-lg lg:text-xl text-[#59547d]`}
             key={item.label}
             onClick={() => setActiveTab(index)}
           >
@@ -59,7 +59,7 @@ function AboutTabs() {
         <AnimatePresence mode="wait">
           <motion.div
             key={activeTab}
-            className="text-[#59547d] text-md font-normal"
+            className="text-[#59547d] text-xs md:text-sm lg:text-md font-normal"
             variants={contentVariants}
             initial="initial"
             animate="animate"

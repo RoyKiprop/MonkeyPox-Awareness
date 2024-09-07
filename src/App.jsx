@@ -10,7 +10,7 @@ import WashHands from "./components/WashHands";
 function App() {
   return (
     <BrowserRouter>
-      <body   style={{
+      <div   style={{
         backgroundImage: `url(${BgImage})`,
         backgroundColor: "rgba(235, 235, 243, 0.75)",
         backgroundBlendMode: "overlay" 
@@ -21,7 +21,7 @@ function App() {
         <Prevention />
         <WashHands/>
         <Footer />
-      </body>
+      </div>
     </BrowserRouter>
   );
 }

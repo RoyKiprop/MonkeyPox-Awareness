@@ -36,15 +36,15 @@ const mpoxPrevention = [
 
 function Prevention() {
   return (
-    <section className="px-8 lg:px-20 py-16">
-      <div className="flex flex-col lg:flex-row gap-10">
+    <section className="px-8 md:px-16 lg:px-20 py-16">
+      <div className="flex flex-col lg:flex-row lg:space-x-10 space-y-10 lg:space-y-0">
         <div className=" w-full lg:w-1/2 space-y-4">
-          <div className="space-y-4 xl:space-y-8">
+          <div className="space-y-6 xl:space-y-8">
             <SectionTag>mPox Prevention</SectionTag>
-            <h1 className="text-2xl xl:text-5xl text-[#59547d] font-bold">
+            <h1 className="text-2xl sm:text-4xl lg:text-5xl text-[#59547d] font-bold">
               Methods of Preventing mPox virus
             </h1>
-            <p className="text-[#59547d] text-base w-full xl:w-[90%] ">
+            <p className="text-[#59547d] text-sm sm:text-md lg:text-lg w-full lg:w-[90%]">
               Preventing the spread of monkeypox involves taking several
               precautions, especially in areas where the virus is present or
               during outbreaks. Since mPox spreads through close contact with
